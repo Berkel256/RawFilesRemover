@@ -1,0 +1,17 @@
+﻿<Window x:Class="RawFilesRemover.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RawFilesRemover"
+        mc:Ignorable="d"
+        Title="RawFiles Remover" Height="350" Width="525">
+    <Grid>
+        <Label Margin="10,10,0,0">Lösche Datei mit Endung </Label>
+        <TextBox Name="textbox_deleteName" Margin="180,12,0,0" Height="20" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBox>
+        <Label Margin="10,40,0,0"> wenn Dateiname mit Endung </Label>
+        <TextBox Name="textbox_compareName" Margin="180,42,0,0" Height="20" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBox>
+        <Label Margin="10,70,0,0">nicht existiert.</Label>
+        <Button Name="button_startDelete" Margin="10,100,0,0" Height="20" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Click="button_startDelete_Clicked">Löschen</Button>
+    </Grid>
+</Window>
